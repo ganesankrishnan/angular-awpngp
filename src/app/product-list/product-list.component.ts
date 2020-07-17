@@ -13,6 +13,10 @@ export class ProductListComponent {
   share() {
     window.alert('The product has been shared!');
   }
+
+  onNotify(pdt: any) {
+    window.alert('You will be notified when the product goes on sale !!! Current price is $' + pdt.price );
+  }
 }
 
 
